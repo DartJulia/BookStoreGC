@@ -79,7 +79,7 @@ public class BookApp {
 		books.add(new UsedBook("2662", "Jane Austen", "Pride and Prejudice", 4.99, "Acceptable"));
 		books.add(new Book("2341", "Leo Toloy", "War and Peace", 15.00));
 		books.add(new Book("2662", "Jane Austen", "Sense and Sensibility", 16.99));
-		books.add(new Book("2630", "Homer", "Iliad", 28.00));
+
 		System.out.println("Welcome to the classic book bookstore");
 		System.out.println("Here is your initial menu of books: ");
 		System.out.println();
