@@ -20,6 +20,7 @@ public class UsedBook extends Book {
 		this.condition = condition;
 	}
 	
+	@Override
 	public String toString() {
 		return super.toString() + " | Condition: " + condition;
 	}

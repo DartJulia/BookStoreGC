@@ -50,6 +50,7 @@ public class Book {
 		this.price = price;
 	}
 
+	@Override
 	public String toString() {
 		
 		return "ISBN: " + isbn + " | Author: " + author + " | Title: " + title + " | Price: " + price;
