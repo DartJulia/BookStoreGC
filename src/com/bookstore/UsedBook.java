@@ -22,7 +22,6 @@ public class UsedBook extends Book {
 	
 	@Override
 	public String toString() {
-		return super.toString() + " | Condition: " + condition;
+		return super.toString() + String.format("%-10s", condition);
 	}
-
 }

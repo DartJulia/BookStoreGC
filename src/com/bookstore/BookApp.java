@@ -63,6 +63,8 @@ public class BookApp {
 
 	public static void printArray(ArrayList<Book> books) {
 		int counter = 1;
+		System.out.println(
+				String.format("%-10s %-25s %-25s %-20s %-10s", "ISBN", "Author", "Title", "Price $", "Condition"));
 		for (Book b : books) {
 		System.out.println(counter + ". " + b);
 		counter++;

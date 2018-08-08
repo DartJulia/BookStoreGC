@@ -52,7 +52,8 @@ public class Book {
 
 	@Override
 	public String toString() {
-		
-		return "ISBN: " + isbn + " | Author: " + author + " | Title: " + title + " | Price: " + price;
+		return String.format("%-10s %-25s %-25s $%-20s", isbn, author, title, price);
+		// return "ISBN: " + isbn + " | Author: " + author + " | Title: " + title + " |
+		// Price: " + price;
 	}
 }
